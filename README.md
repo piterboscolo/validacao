@@ -38,3 +38,21 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 ```
 
+https://www.npmjs.com/package/express-session
+
+```
+var app = express()
+app.set('trust proxy', 1) // trust first proxy
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: true }
+}))
+```
+
+https://www.npmjs.com/package/flash
+
+```
+app.use(flash());
+```
