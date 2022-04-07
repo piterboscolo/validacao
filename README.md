@@ -1,4 +1,4 @@
-# Validacao de Formulários com Express e EJS
+# Validacao de Formulários com Express, Express Sessions e EJS
 
 **Bases do Projeto**
 
