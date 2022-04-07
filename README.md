@@ -26,7 +26,7 @@ npm install ejs --save
 npm install express-flash --save
 ```
 
-**Express/Connect top-level generic**
+**Express/Connect**
 
 https://www.npmjs.com/package/body-parser
 
@@ -56,3 +56,11 @@ https://www.npmjs.com/package/flash
 ```
 app.use(flash());
 ```
+
+
+
+**Validação.js**
+
+Uma biblioteca de validadores e sanitizadores de strings.
+
+https://www.npmjs.com/package/validator
